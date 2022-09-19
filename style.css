@@ -1,0 +1,54 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: wheat;
+}
+
+a{
+    display: flex;
+    font-size: 30px;
+    color: black;
+}
+
+#timer{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+}
+
+#questionsBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    font-size: 25px;  
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#startButt{
+    display: flex;
+    scale: 2;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.bodyScores{
+   display: flex; 
+   align-items: center;
+   flex-direction: column;
+   margin-top: 300px;
+}
+
+#scoreContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    scale: 3;
+}
+
+#listItems{
+    list-style: decimal;
+}
