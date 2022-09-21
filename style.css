@@ -11,7 +11,7 @@ a {
     margin-top: 20px;
 }
 
-#timer{
+#timeLeft{
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -22,8 +22,8 @@ a {
 
 #information{
     display: flex;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 #questionsBox{
@@ -31,9 +31,9 @@ a {
     align-items: center;
     flex-direction: column;
     background-color: whitesmoke;
-    font-size: 25px;  
+    font-size: 20px;  
     padding: 10px;
-    text-align: center;
+    text-align:start;
 }
 
 #startButt{
